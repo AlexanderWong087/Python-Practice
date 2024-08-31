@@ -1,0 +1,5 @@
+a=input('Input a string: ')
+b=input('Input a string: ')
+a=int(a,2)
+b=int(b,2)
+print(a*b)
