@@ -1,0 +1,7 @@
+def split_n_cases(txt, cases):
+    part_length = len(txt) // cases
+    return [txt[i:i + part_length] for i in range(0, len(txt), part_length)]
+
+print(split_n_cases("Strengthened", 6))
+print(split_n_cases("Unscrupulous", 2))
+print(split_n_cases("Flavorless", 1))
